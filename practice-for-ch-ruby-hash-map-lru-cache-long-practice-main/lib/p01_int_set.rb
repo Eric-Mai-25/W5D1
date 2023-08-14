@@ -102,7 +102,6 @@ class ResizingIntSet
           temp.insert(el)
         end
       end   
-      p temp.store
       @store = temp.store
     end
 
